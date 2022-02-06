@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(fonts/PT-Sans/PTSans-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-width: 100vw;
+}
+
+body {
+    min-width: 100%;
+}
+
+header {
+    display: flex;
+    padding: 40px 70px;
+    width: calc(100% - 140px);
+    justify-content: space-between;
+}
+
+.search-clue {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #BABABA;
+}
+
+.search {
+    background: #FAFAFA;
+    border-radius: 30px;
+    padding: 12px 345px 12px 28px;
+    border: none;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #67BC5E;
+    color: #FFFFFF;
+    border: none;
+    padding: 3px 28px 3px 28px;
+    max-width: 110px;
+    border-radius: 30px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.header-btn {
+    border: none;
+    color: #000000;
+    background: white;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+}
+
+
+.header-btns-icon {
+    vertical-align: text-top;
+    margin-right: 12px;
+}
+
+.p-under {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #67BC5E;
+    margin: 0;
+}
+
+.line,
+.line2 {
+    border: 1px solid #E5E5E5;
+    width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+nav a {
+    display: inline-block;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #67BC5E;
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.nav-elements {
+    display: block;
+    text-align: center;
+    padding: 5vw 10vw;
+    width: 100%;
+}
+
+.inscription {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    padding: 80px 222px 80px 223px;
+}
+
+.search-nayti {
+    background-color: #67BC5E;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 112px 17px 112px;
+    margin: 0px 550px 80px 550px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.search-nayti-article {
+    display: block;
+    text-align: center;
+}
+
+.img-tools {
+    display: block;
+    text-align: center;
+}
