@@ -237,11 +237,6 @@ nav a {
     margin-top: 100px;
 }
 
-.how-work {
-    display: flex;
-    justify-content: space-around;
-}
-
 .human-message {
     position: absolute;
     right: -8vw;
@@ -269,5 +264,43 @@ nav a {
 }
 
 .human-message a {
-    color: #67BC5E;;
+    color: #67BC5E;
+}
+
+.how-work {
+    display: flex;
+    justify-content: space-around;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.group {
+    padding: 40px 20px;
+    margin-bottom: 120px;
+    background-color: #FAFAFA;
+    border-radius: 300px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+}
+
+footer {
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 40px 70px;
+    width: calc(100% - 140px);
+    justify-content: space-between;
+}
+
+.p-under-in-footer {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #67BC5E;
+    margin: 10px 182px 30px 10px;
 }
