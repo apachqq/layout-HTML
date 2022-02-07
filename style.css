@@ -291,7 +291,8 @@ footer {
     display: flex;
     background-color: #EEEEEE;
     padding: 40px 70px;
-    width: calc(100% - 140px);
+    width: auto;
+    height: 345px;
     justify-content: space-between;
 }
 
@@ -304,3 +305,26 @@ footer {
     color: #67BC5E;
     margin: 10px 182px 30px 10px;
 }
+
+.logos {
+    display: flex;
+}
+
+.logo {
+    margin: 0px 10px 0px 0px;
+}
+
+.logo:nth-child(1) {
+    margin-left: 10px;
+}
+
+.rights {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6C6C6C;
+    padding: 113px 0px 30px 10px;
+}
+
