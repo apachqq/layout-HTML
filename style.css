@@ -303,7 +303,7 @@ footer {
     font-size: 12px;
     line-height: 16px;
     color: #67BC5E;
-    margin: 10px 182px 30px 10px;
+    margin: 10px 0px 30px 10px;
 }
 
 .logos {
@@ -325,6 +325,28 @@ footer {
     font-size: 14px;
     line-height: 18px;
     color: #6C6C6C;
-    padding: 113px 0px 30px 10px;
+    margin: 113px 0px 30px 10px;
 }
 
+.politics {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #6C6C6C;
+    margin: 257px 10px 30px 0px;
+}
+
+.footer-text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
