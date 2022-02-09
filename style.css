@@ -359,4 +359,10 @@ footer a {
         justify-content: center;
         text-align: center;
     }
+    .logos {
+        justify-content: center;
+    }
+    .logo {
+        margin-left: 1vw;
+    }
 }
