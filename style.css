@@ -349,3 +349,14 @@ footer a {
     text-decoration: none;
     color: #000000;
 }
+
+@media screen and (max-width: 800px) {
+    .how-work {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
