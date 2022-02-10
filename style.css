@@ -1,12 +1,13 @@
 @font-face {
     font-family: "PT Sans";
     src: url(fonts/PT-Sans/PTSans-Regular.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
+
+
 }
 
 * {
     box-sizing: border-box;
+    font-family: PT Sans;
 }
 
 html, body {
@@ -34,9 +35,6 @@ header {
 }
 
 .search-clue {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.6vw;
     color: #BABABA;
 }
@@ -62,8 +60,6 @@ header {
     padding: 0.5vw 1vw 0.5vw 0.8vw;
     max-width: 6vw;
     border-radius: 5vw;
-    font-family: PT Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 1vw;
     line-height: 1.1vw;
@@ -80,9 +76,6 @@ header {
     border: none;
     color: #000000;
     background: white;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.9vw;
     line-height: 0.9vw;
     padding: 0vw;
@@ -95,9 +88,6 @@ header {
 }
 
 .p-under {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.9vw;
     line-height: 0.9vw;
     color: #67BC5E;
@@ -120,8 +110,6 @@ header {
 nav a {
     display: inline-block;
     text-decoration: none;
-    font-family: PT Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 0.9vw;
     line-height: 1vw;
@@ -143,9 +131,6 @@ nav a {
 .inscription {
     display: block;
     text-align: center;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 2vw;
     line-height: 4vw;
     text-align: center;
@@ -160,8 +145,6 @@ nav a {
     color: #FFFFFF;
     border: none;
     padding: 1vw 7vw 1vw 7vw;
-    font-family: PT Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 1.6vw;
     line-height: 2vw;
@@ -184,7 +167,6 @@ nav a {
 
 
 .order-today {
-    font-family: PT Sans;
     font-size: 1.4vw;
     line-height: 1.8vw;
     text-align: center;
@@ -207,8 +189,6 @@ nav a {
 .number {
     padding: 0.2vw 0.8vw 0.2vw 0.8vw;
     margin: 0.5vw 0.8vw 4.8vw 0vw;
-    font-family: PT Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 65px;
     line-height: 84px;
@@ -223,9 +203,6 @@ nav a {
 }
 
 .direction-inscription {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 2vw;
     line-height: 2.8vw;
     text-align: center;
@@ -245,9 +222,6 @@ nav a {
     height: 246px;
     text-align: center;
     padding: 60px 20px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     text-align: center;
 }
@@ -269,9 +243,6 @@ nav a {
 .how-work {
     display: flex;
     justify-content: space-around;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.9vw;
     line-height: 1vw;
     text-align: center;
@@ -296,9 +267,6 @@ footer {
 }
 
 .p-under-in-footer {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.8vw;
     line-height: 1vw;
     color: #67BC5E;
@@ -318,9 +286,6 @@ footer {
 }
 
 .rights {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.8vw;
     line-height: 1vw;
     color: #6C6C6C;
@@ -328,18 +293,12 @@ footer {
 }
 
 .politics {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 0.8vw;
     color: #6C6C6C;
     margin: 16.5vw 0.1vw 2vw 0vw;
 }
 
 .footer-text {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 1.1vw;
     line-height: 1.5vw;
     color: #000000;
@@ -354,14 +313,17 @@ footer a {
     .how-work {
         flex-direction: column;
     }
+
     footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
+
     .logos {
         justify-content: center;
     }
+
     .logo {
         margin-left: 1vw;
     }
