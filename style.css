@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-    min-width: 100vw;
+    min-width: 100%;
 }
 
 .btn {
@@ -27,20 +27,21 @@ body {
 
 header {
     display: flex;
-    padding: 2vw 3vw;
-    width: calc(100% - 7vw);
+    padding: 40px 70px;
+    width: calc(100% - 140px);
     justify-content: space-between;
 }
 
 .search-clue {
-    font-size: 0.6vw;
+    font-size: 12px;
+    line-height: 16px;
     color: #BABABA;
 }
 
 .search {
     background: #FAFAFA;
-    border-radius: 5vw;
-    padding: 1.1vw 35vw 1.1vw 2vw;
+    border-radius: 30px;
+    padding: 12px 345px 12px 28px;
     border: none;
 }
 
@@ -55,68 +56,68 @@ header {
     background: #67BC5E;
     color: #FFFFFF;
     border: none;
-    padding: 0.5vw 1vw 0.5vw 0.8vw;
-    max-width: 6vw;
-    border-radius: 5vw;
+    padding: 3px 28px 3px 28px;
+    max-width: 110px;
+    border-radius: 30px;
     font-weight: bold;
-    font-size: 1vw;
-    line-height: 1.1vw;
+    font-size: 13px;
+    line-height: 17px;
     text-align: center;
 }
 
 .header-btns {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.7vw;
+    margin-bottom: 10px;
 }
 
 .header-btn {
     border: none;
     color: #000000;
     background: white;
-    font-size: 0.9vw;
-    line-height: 0.9vw;
-    padding: 0vw;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
 }
 
 
 .header-btns-icon {
     vertical-align: text-top;
-    margin-right: 0.7vw;
+    margin-right: 12px;
 }
 
 .p-under {
-    font-size: 0.9vw;
-    line-height: 0.9vw;
+    font-size: 12px;
+    line-height: 16px;
     color: #67BC5E;
-    margin: 0vw;
+    margin: 0;
 }
 
 .line {
     border: 1px solid #E5E5E5;
     width: auto;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .line2 {
     border: 1px solid #E5E5E5;
     width: auto;
-    margin: 5vw 5vw 0vw 5vw;
+    margin: 80px 80px 0vw 80px;
 }
 
 nav a {
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.9vw;
-    line-height: 1vw;
+    font-size: 14px;
+    line-height: 18px;
     background-color: #67BC5E;
-    border-radius: 5vw;
+    border-radius: 30px;
     color: #FFFFFF;
-    padding: 0.2vw 0.5vw;
-    margin-bottom: 1.7vw;
-    margin-right: 1.2vw;
+    padding: 3px 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
 }
 
 .nav-elements {
@@ -129,23 +130,22 @@ nav a {
 .inscription {
     display: block;
     text-align: center;
-    font-size: 2vw;
-    line-height: 4vw;
-    text-align: center;
+    font-size: 33px;
+    line-height: 43px;
     color: #000000;
-    margin: 5vw 0vw;
+    padding: 80px 222px 80px 223px;
 }
 
 .search-nayti {
     display: inline-block;
     background-color: #67BC5E;
-    border-radius: 5vw;
+    border-radius: 30px;
     color: #FFFFFF;
     border: none;
-    padding: 1vw 7vw 1vw 7vw;
+    padding: 16px 112px 17px 112px;
     font-weight: bold;
-    font-size: 1.6vw;
-    line-height: 2vw;
+    font-size: 24px;
+    line-height: 31px;
     text-align: center;
 }
 
@@ -165,8 +165,8 @@ nav a {
 
 
 .order-today {
-    font-size: 1.4vw;
-    line-height: 1.8vw;
+    font-size: 23px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -175,8 +175,8 @@ nav a {
     position: relative;
     justify-content: center;
     background-color: #F8F8F8;
-    padding-top: 2.5vw;
-    margin-top: 14vw;
+    padding-top: 46px;
+    margin-top: 217px;
 }
 
 .numbers {
@@ -185,8 +185,8 @@ nav a {
 }
 
 .number {
-    padding: 0.2vw 0.8vw 0.2vw 0.8vw;
-    margin: 0.5vw 0.8vw 4.8vw 0vw;
+    padding: 8px 23px 8px 23px;
+    margin: 30px 16px 46px 0;
     font-weight: bold;
     font-size: 65px;
     line-height: 84px;
@@ -197,12 +197,12 @@ nav a {
 }
 
 .number:nth-child(4) {
-    margin: 0.5vw 0.8vw 4.8vw 0vw;
+    margin: 30px 16px 46px 0;
 }
 
 .direction-inscription {
-    font-size: 2vw;
-    line-height: 2.8vw;
+    font-size: 33px;
+    line-height: 43px;
     text-align: center;
     color: #000000;
 }
@@ -241,64 +241,64 @@ nav a {
 .how-work {
     display: flex;
     justify-content: space-around;
-    font-size: 0.9vw;
-    line-height: 1vw;
+    font-size: 16px;
+    line-height: 21px;
     text-align: center;
 }
 
 .group {
-    padding: 2vw 1vw;
-    margin-bottom: 10vw;
+    padding: 55px 30px;
+    margin-bottom: 120px;
     background-color: #FAFAFA;
-    border-radius: 10vw;
-    margin-top: 5vw;
+    border-radius: 100%;
+    margin-top: 80px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
 }
 
 footer {
     display: flex;
     background-color: #EEEEEE;
-    padding: 2vw 3vw;
-    width: 100vw;
-    height: auto;
+    padding: 40px 70px;
+    height: 345px;
     justify-content: space-between;
 }
 
 .p-under-in-footer {
-    font-size: 0.8vw;
-    line-height: 1vw;
+    font-size: 12px;
+    line-height: 16px;
     color: #67BC5E;
-    margin: 0.5vw 0vw 2vw 0.5vw;
+    margin: 10px 0px 30px 10px;
 }
 
-.logos {
+.icons-social {
     display: flex;
 }
 
-.logo {
+.icon-social {
     margin: 0vw 0.5vw 0vw 0vw;
 }
 
-.logo:nth-child(1) {
-    margin-left: 0.5vw;
+.icon-social:nth-child(1) {
+    margin-left: 10px;
 }
 
 .rights {
-    font-size: 0.8vw;
-    line-height: 1vw;
+    font-size: 14px;
+    line-height: 18px;
     color: #6C6C6C;
-    margin: 7vw 0vw 2vw 0.5vw;
+    margin: 113px 0 30px 10px;
 }
 
 .politics {
-    font-size: 0.8vw;
+    font-size: 14px;
+    line-height: 18px;
     color: #6C6C6C;
-    margin: 16.5vw 0.1vw 2vw 0vw;
+    margin: 270px 80px 30px 0;
 }
 
 .footer-text {
-    font-size: 1.1vw;
-    line-height: 1.5vw;
+    font-size: 16px;
+    line-height: 21px;
     color: #000000;
 }
 
@@ -307,22 +307,49 @@ footer a {
     color: #000000;
 }
 
-@media screen and (max-width: 800px) {
-    .how-work {
-        flex-direction: column;
-    }
-
+@media screen and (max-width: 576px) {
     footer {
         flex-direction: column;
-        justify-content: center;
         text-align: center;
+        height: auto;
     }
 
-    .logos {
+    .icons-social {
         justify-content: center;
     }
 
-    .logo {
-        margin-left: 1vw;
+    .icon-social {
+        margin-left: 15px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .rights,
+    .politics {
+        font-size: 10px;
+        line-height: 13px;
+        color: #6C6C6C;
+    }
+
+    .p-under-in-footer {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .how-work {
+        flex-direction: column;
+        margin: 0 56px;
+    }
+
+    .search-nayti {
+        padding: 12px 37px 12px 37px;
+    }
+
+    .inscription {
+        font-size: 18px;
+        line-height: 23px;
     }
 }
