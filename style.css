@@ -18,6 +18,8 @@ html, body {
 
 body {
     min-width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 .btn {
@@ -29,7 +31,7 @@ header {
     display: flex;
     padding: 40px 70px;
     width: 100vw;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .search-clue {
@@ -133,7 +135,7 @@ nav a {
     font-size: 33px;
     line-height: 43px;
     color: #000000;
-    padding: 80px 222px 80px 223px;
+    padding: 80px 0px;
 }
 
 .search-nayti {
@@ -184,7 +186,7 @@ nav a {
     justify-content: center;
     background-color: #F8F8F8;
     padding-top: 46px;
-    margin-top: 217px;
+    margin-top: 100px;
 }
 
 .numbers {
@@ -219,33 +221,6 @@ nav a {
     margin-top: 100px;
 }
 
-.human-message {
-    position: absolute;
-    right: -8vw;
-    top: -8vw;
-    background-image: url(img/chat.svg);
-    width: 264px;
-    height: 246px;
-    text-align: center;
-    padding: 60px 20px;
-    font-size: 16px;
-    text-align: center;
-}
-
-.human-speak {
-    position: absolute;
-    left: 23%;
-    top: 0;
-}
-
-.human-speak-wrapper {
-    position: relative;
-}
-
-.human-message a {
-    color: #67BC5E;
-}
-
 .how-work {
     display: flex;
     justify-content: space-around;
@@ -267,7 +242,7 @@ footer {
     display: flex;
     background-color: #EEEEEE;
     padding: 40px 70px;
-    /* width: 100vw; */
+    width: 100vw;
     height: 345px;
     justify-content: space-between;
 }
@@ -324,10 +299,7 @@ footer a {
     margin: 0;
 }
 
-.search-box-576,
-.search-576,
-.search-btn-576,
-.search-clue-576 {
+.search-wrapper-576 {
     display: none;
 }
 
@@ -390,14 +362,6 @@ footer a {
         line-height: 23px;
     }
 
-    .img-tools {
-        display: none;
-    }
-
-    .img-tools-576 {
-        display: block;
-    }
-
     .line {
         margin: 0 15px 0 15px;
     }
@@ -409,6 +373,7 @@ footer a {
     header {
         padding: 0;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .logo {
@@ -432,6 +397,11 @@ footer a {
         display: none;
     }
 
+    .search-wrapper-576 {
+        display: block;
+        margin: 20px 25px 0px 15px;
+    }
+
     .search-box-576 {
         position: relative;
     }
@@ -439,7 +409,7 @@ footer a {
     .search-576 {
         background: #FAFAFA;
         border-radius: 30px;
-        /* padding: 12px 345px 12px 28px; */
+        padding: 12px 345px 12px 28px;
         border: none;
     }
 
@@ -478,5 +448,10 @@ footer a {
     .pr-576 {
         display: flex;
         justify-content: space-between;
+    }
+
+    .header-btns-icon {
+        margin-left: 15px;
+        vertical-align: text-top;
     }
 }

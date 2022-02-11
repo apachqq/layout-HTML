@@ -35,7 +35,7 @@
 
     </header>
     <div class="line"></div>
-    <div>
+    <div class="search-wrapper-576">
         <div class="search-box-576">
             <input class="search-576" type="text" placeholder="Что вам требуется?">
             <button class="search-btn-576">НАЙТИ ПРОФИ</button>
@@ -60,12 +60,10 @@
         <a href="#">Покраска стен</a>
     </nav>
     <main>
-        <article class="img-tools">
-            <img src="img/tools.png">
-        </article>
-        <article class="img-tools-576">
-            <img src="img/tools-576.png">
-        </article>
+        <picture class="img-tools">
+            <source srcset="img/tools-576.png" media="(max-width: 576px)" type="image/png">
+            <img src="img/tools.png" loading="lazy" />
+        </picture>
         <article class="inscription">
             РЕАЛИЗУЙТЕ СВОИ ПЛАНЫ - НАХОДИТЕ СПЕЦИАЛИСТОВ ЗДЕСЬ!
         </article>
@@ -74,14 +72,6 @@
         </article>
         <article class="line2"></article>
         <article class="orders">
-            <article class="human-speak">
-                <article class="human-speak-wrapper">
-                    <img class="human" src="img/human.png">
-                    <div class="human-message">
-                        Приглашаем Вас <a href="#">присоединиться к нашему сервису</a>
-                    </div>
-                </article>
-            </article>
             <article class="order-today">
                 ЗАКАЗОВ ОПУБЛИКОВАНО СЕГОДНЯ:
                 <div class="numbers">
