@@ -307,6 +307,29 @@ footer a {
     display: none;
 }
 
+*::-webkit-scrollbar {
+    width: 12px;
+    /* ширина scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: #f6f6f6;
+    /* цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #dee0e8;
+    /* цвет плашки */
+    border-radius: 20px;
+    /* закругления плашки */
+    border: 3px solid #f6f6f6;
+    /* padding вокруг плашки */
+}
+
+input {
+    outline: none;
+}
+
 @media screen and (max-width: 576px) {
     footer {
         flex-direction: column;
@@ -345,7 +368,7 @@ footer a {
 
     .how-work {
         flex-direction: column;
-        margin: 0 56px;
+        margin: 0 20vw;
     }
 
     .group {
@@ -453,5 +476,35 @@ footer a {
     .header-btns-icon {
         margin-left: 15px;
         vertical-align: text-top;
+    }
+
+    .nav-elements {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    nav a {
+        display: block;
+        white-space: nowrap;
+        margin-bottom: 0;
+    }
+
+    *::-webkit-scrollbar {
+        width: 12px;
+        /* ширина scrollbar */
+    }
+
+    *::-webkit-scrollbar-track {
+        background: #f6f6f6;
+        /* цвет дорожки */
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #dee0e8;
+        /* цвет плашки */
+        border-radius: 20px;
+        /* закругления плашки */
+        border: 3px solid #f6f6f6;
+        /* padding вокруг плашки */
     }
 }
