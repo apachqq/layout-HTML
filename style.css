@@ -234,6 +234,10 @@ nav a {
     transition: all 0.8s ease 0s;
 }
 
+.animation {
+    transform: scale(1);
+}
+
 .group {
     padding: 55px 30px;
     margin-bottom: 120px;
