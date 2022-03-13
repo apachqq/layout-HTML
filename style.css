@@ -227,6 +227,11 @@ nav a {
     transition: all 0.8s ease 0s;
 }
 
+.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
 .how-work {
     display: flex;
     justify-content: space-around;
