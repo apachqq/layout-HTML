@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2824f046-7e6d-4834-b9c0-96564dbd9154" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="2824f046-7e6d-4834-b9c0-96564dbd9154" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647207342407</updated>
       <workItem from="1647207343689" duration="402000" />
+      <workItem from="1647295949591" duration="238000" />
     </task>
     <servers />
   </component>
@@ -67,15 +66,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="624" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647207474848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647207474848" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1647207397370">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1647295954938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647207397370" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647295954938" />
   </component>
 </project>
