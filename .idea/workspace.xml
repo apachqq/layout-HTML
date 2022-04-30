@@ -36,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../keks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../popup-js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -50,6 +50,7 @@
       <updated>1647207342407</updated>
       <workItem from="1647207343689" duration="402000" />
       <workItem from="1647295949591" duration="238000" />
+      <workItem from="1647387053721" duration="134000" />
     </task>
     <servers />
   </component>
@@ -73,9 +74,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647207474848" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1647295954938">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1647387188006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647295954938" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647387188006" />
   </component>
 </project>
